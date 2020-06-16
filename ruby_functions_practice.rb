@@ -59,5 +59,6 @@ def volume_of_cube(side)
 end
 
 def fahrenheit_to_celsius(fahrenheit)
-    return (fahrenheit - 32) * 5/9
+    result = (fahrenheit - 32) * 5/9
+    return result.to_f
 end

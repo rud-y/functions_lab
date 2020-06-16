@@ -57,3 +57,7 @@ end
 def volume_of_cube(side)
     return side * side * side
 end
+
+def fahrenheit_to_celsius(fahrenheit)
+    return (fahrenheit - 32) * 5/9
+end

@@ -2,7 +2,10 @@ def return_10
     return 10
 end
 
-def add(number1, number2)
-    return number1 + number2
+def add(number_1, number_2)
+    return number_1 + number_2
 end
 
+def subtract(number_1, number_2)
+    return number_1 - number_2
+end
